@@ -1,0 +1,8 @@
+sudo -s
+sudo apt-get update
+sudo apt install nvidia-driver-430
+git clone https://github.com/abhilashbadli/mining.git
+cd miningnanominer
+chmod +x nanominer
+tmux
+./nanominer
